@@ -1,0 +1,17 @@
+.upvote + button{
+        background-color: cornflowerblue;
+}
+p + h3{
+    text-decoration: underline;
+}
+h1,h3{
+    color: rgb(185, 43, 39);;
+}
+.upvote{
+    background-color: rgb(63, 195, 63);
+}
+/*descendant selector*/
+p a {
+    color: purple;
+    background-color: yellow;
+}

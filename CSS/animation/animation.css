@@ -1,0 +1,50 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+
+    /* animation-name: fromAnimation;
+    animation-duration: 2s;
+    animation-timing-function: 0;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-direction: normal; */
+
+    animation: colAnimate 5s ease-in 0s 5 normal;
+}
+
+/* @keyframes fromAnimation{
+    from{
+        font-size: 20px;
+        background-color: green;
+        width: 100px;
+    }
+    to{
+        font-size: 40px;
+        background-color: blue;
+        width: 400px;
+        border-radius: 15px;
+    } 
+}*/
+
+/* @keyframes colorAnimation{
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: blue;
+    }
+} */
+
+@keyframes colAnimate{
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: red;
+    }
+}
